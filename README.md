@@ -1,6 +1,8 @@
 # Mammogram Classification
 Persistent Homology for Breast Tumor Classification using Mammogram Scans
 
+> This code accompanies the paper "Persistent Homology for Breast Tumor Classification using Mammogram Scans" by Aras Asaad, Dashti Ali, Taban Majeed and Rasber Rashid, 2022.
+
 ## Table of contents
 1. [Feature extraction](#feature-extraction)
 2. [Classification](#classification)
