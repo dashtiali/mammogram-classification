@@ -244,7 +244,7 @@ if __name__ == '__main__':
         if not os.path.isdir(f'{outputFolder}//{setName}'):
                 os.mkdir(f'{outputFolder}//{setName}')
 
-        np.save(f'{outputFolder}//{setName}//file_names.csv', [i[0] for i in results])
+        np.save(f'{outputFolder}//{setName}//file_names', [i[0] for i in results])
 
         for geo in range(7):
             if not os.path.isdir(f'{outputFolder}//{setName}//G{geo}'):
